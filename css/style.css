@@ -35,6 +35,9 @@ margin: 0;
 #presentation-container{
     padding: 40px 120px;
     height: 600px;
+    background-image: url(../img/background.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 #presentation{
@@ -58,4 +61,8 @@ margin: 0;
 
 .container button{
     margin-top: 32px;
+}
+
+.bg-gradient{
+    background: linear-gradient(180deg, white, #d9d9d9);
 }
