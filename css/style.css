@@ -92,6 +92,10 @@ h3 {
     flex-direction: row;
 }
 
+.article-container img{
+    width: 50%;
+}
+
 /* Deixando o blog inverso */
 .article-container:nth-child(even) {
     margin-top: 140px;
@@ -215,3 +219,70 @@ h3 {
 .bg-grey{
     background-color: #F4F5F7;
 }
+
+@media only screen and (min-width: 768px) and (max-width: 1023px){
+    h1{
+        font-size: 56px;
+    }
+
+    h2{
+        font-size: 36px;
+    }
+
+    #presentation-container {
+        padding: 64px 46px;
+    }
+
+    .container{
+        padding: 64px 46px;
+    }
+
+    .grid-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .grid-container-companies{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: auto;
+        gap: 24px;
+        margin-top: 40px;
+    }
+
+    .company-1{
+        grid-area: auto;
+    }
+    
+    .company-2{
+        grid-area: auto;
+    }
+    
+    .company-3{
+        grid-area: auto;
+    }
+    
+    .company-4{
+        grid-area: auto;
+    }
+    
+    .company-5{
+        grid-area: auto;
+    }
+    
+    .company-6{
+        grid-area: auto;
+    }
+    
+    .company-7{
+        grid-area: auto;
+    }
+    
+    .company-8{
+        grid-area: auto;
+    }
+    
+    .company-9{
+        grid-area: auto;
+    }
+}
+
